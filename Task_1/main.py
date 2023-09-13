@@ -9,4 +9,4 @@ n = int(input("Enter the steps number: "))
 
 lst = [a1 if i == 0 else i * d + a1 for i in range(n)]
 
-print(*lst)
+print("Arithmetical progression for your prompt is:", *lst)
